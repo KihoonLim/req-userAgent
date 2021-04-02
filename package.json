@@ -1,29 +1,32 @@
 {
-  "name": "req-userAgent",
-  "version": "1.0.0",
+  "name": "req-useragent",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main":"dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "start": "tsc && node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "req-useragent",
+    "useragent",
+    "req",
+    "API",
+    "rest api"
+  ],
+  "author": "ricky",
+  "private:": false,
+  "license": "UNLICENSED",
   "dependencies": {
     "typescript": "^4.2.3"
   },
   "bin": {
     "log-run": "dist/index.js"
   },
-  "files": [
-    "index.ts",
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/KihoonLim/req-userAgentt"
-  },
+  }
 
 }
