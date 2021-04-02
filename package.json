@@ -1,0 +1,24 @@
+{
+  "name": "req-userAgent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  },
+  "bin": {
+    "log-run": "dist/index.js"
+  },
+  "files": [
+    "index.ts",
+    "dist"
+  ]
+}

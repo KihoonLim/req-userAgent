@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",      // 타입스크립트 모듈
+    "target": "ES2015",        // 컴파일 후 언어
+    "sourceMap": true,         // '.map' 파일 생성 여부.
+    "outDir": "dist"           // 컴파일된 js 파일 저장위치
+  },
+  "include": ["*"],     // 컴퍼일 대상 ( src 하위의 모든 파일 )
+  "exclude": ["node_modules"]  // 컴파일 제외
+}
