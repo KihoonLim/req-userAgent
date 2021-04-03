@@ -13,7 +13,11 @@
     "useragent",
     "req",
     "API",
-    "rest api"
+    "rest api",
+    "ip",
+    "brower",
+    "os",
+    "client"
   ],
   "author": "ricky",
   "private:": false,
