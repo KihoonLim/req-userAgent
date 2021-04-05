@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DetectReq = void 0;
-const DetectReq = (req) => {
+exports.GetClientInfo = void 0;
+const GetClientInfo = (req) => {
     const unknown = '-';
     //browser
     const nVer = req.appVersion;
@@ -152,5 +152,5 @@ const DetectReq = (req) => {
     };
     return detectInfo;
 };
-exports.DetectReq = DetectReq;
+exports.GetClientInfo = GetClientInfo;
 //# sourceMappingURL=index.js.map
