@@ -13,10 +13,10 @@ $ npm i req-useragent
 Example
 
 ```tsx
-import { DetectReq } from 'req-useragent';
+import { GetClientInfo } from 'req-useragent';
 
 app.use('/', async (req, res, next) => {
-	const userData = DetectReq(req);
+	const userData = GetClientInfo(req);
 	console.log(userData);
 });
 

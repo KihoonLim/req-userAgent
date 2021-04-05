@@ -6,7 +6,7 @@ interface DetectReqOut {
   osVersion: string,
 }
 
-export const DetectReq = (req: any): DetectReqOut => {
+export const GetClientInfo = (req: any): DetectReqOut => {
   const unknown = '-';
 
   //browser
