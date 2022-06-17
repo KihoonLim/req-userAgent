@@ -159,8 +159,7 @@ export const GetClientInfo = (req: any): DetectReqOut => {
         break;
 
       case 'iOS':
-        const osVersionArr = /OS (\d+)_(\d+)_?(\d+)?/.exec(nVer);
-        osVersion = `${osVersionArr[1]}.${osVersionArr[2]}.${osVersionArr[3]}`;
+        osVersion = /OS ([\.\_\d]+)/.exec(nAgt)[1];
         break;
     }
 

@@ -140,8 +140,7 @@ const GetClientInfo = (req) => {
                 osVersion = /Android ([\.\_\d]+)/.exec(nAgt)[1];
                 break;
             case 'iOS':
-                const osVersionArr = /OS (\d+)_(\d+)_?(\d+)?/.exec(nVer);
-                osVersion = `${osVersionArr[1]}.${osVersionArr[2]}.${osVersionArr[3]}`;
+                osVersion = /OS ([\.\_\d]+)/.exec(nAgt)[1];
                 break;
         }
         const detectInfo = {
