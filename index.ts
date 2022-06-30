@@ -13,10 +13,10 @@ export const GetClientInfo = (req: any): DetectReqOut => {
 
     //browser
     const nVer = req.appVersion;
-    const nAgt = req.headers['user-agent'];
+    const nAgt = req.headers['user-agent'] || '';
 
-    let browser: string;
-    let version: string;
+    let browser = 'UNDEFINED';
+    let version = '';
     let nameOffset, verOffset, ix;
 
     // Opera

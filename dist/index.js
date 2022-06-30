@@ -6,9 +6,9 @@ const GetClientInfo = (req) => {
         const unknown = '-';
         //browser
         const nVer = req.appVersion;
-        const nAgt = req.headers['user-agent'];
-        let browser;
-        let version;
+        const nAgt = req.headers['user-agent'] || '';
+        let browser = 'UNDEFINED';
+        let version = '';
         let nameOffset, verOffset, ix;
         // Opera
         if ((verOffset = nAgt.indexOf('Opera')) != -1) {
