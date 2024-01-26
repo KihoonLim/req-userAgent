@@ -1,8 +1,8 @@
 {
   "name": "req-useragent",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "",
-  "main":"dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
@@ -33,5 +33,4 @@
     "type": "git",
     "url": "https://github.com/KihoonLim/req-userAgent"
   }
-
 }
